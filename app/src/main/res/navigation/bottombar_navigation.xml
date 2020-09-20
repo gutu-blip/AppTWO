@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottombar_navigation"
+    app:startDestination="@id/home">
+
+
+
+    <fragment
+        android:id="@+id/home"
+        android:label="Home"
+        android:name="com.speca.app2.bottomnavfrags.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/myuploads"
+        android:label="MyUploads"
+        android:name="com.speca.app2.bottomnavfrags.MyuploadsFragment"
+        tools:layout="@layout/fragment_myuploads"/>
+
+
+    <fragment
+        android:id="@+id/bookmarks"
+        android:label="Bookmarks"
+       android:name="com.speca.app2.bottomnavfrags.BookmarksFragment"
+        tools:layout="@layout/fragment_bookmarks"/>
+
+
+
+
+    <fragment
+        android:id="@+id/post"
+        android:label="Post"
+        android:name="com.speca.app2.bottomnavfrags.PostFragment"
+        tools:layout="@layout/fragment_post"/>
+
+</navigation>

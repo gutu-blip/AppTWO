@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/feedback_name"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@android:color/secondary_text_dark"
+        android:hint="Name"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+
+    <EditText
+        android:id="@+id/feedback_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Message"
+        android:textColorHint="@android:color/secondary_text_dark"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send feedback"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@drawable/inapp_buttondesign"
+        android:layout_centerInParent="true"
+        android:id="@+id/feedback_button"
+        />
+
+</RelativeLayout>
